@@ -69,7 +69,7 @@ install_mod() {
     # NorthernUI
     banner "Downloading NorthernUI"
     mod='NorthernUI-48577-2-0-3-1612716365.zip'
-    url="https://raw.githubusercontent.com/dotfil/ezdeck/main/oblivion/${mod}"
+    url="https://raw.githubusercontent.com/Resillience/dotfil/main/ezdeck/main/oblivion/${mod}"
     curl  ${url} -o ${TMP_DIR}/${mod}
     unzip "${TMP_DIR}/${mod}" -d "${TMP_DIR}/Data"
 
